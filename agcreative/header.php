@@ -5,9 +5,6 @@
 					  {
 					     echo "";
 					   }
-					   elseif(is_404()){
-					     echo "404 (Page Not Found) - ";
-					   } 
 					   elseif(is_page())
 					   {
 						   echo the_title();
@@ -17,6 +14,8 @@
 		                                                 
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<?php include('elements/fav-icons.php'); ?>
 		
 		<?php wp_head(); ?>
 </head>
