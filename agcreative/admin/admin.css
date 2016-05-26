@@ -1,0 +1,101 @@
+/*-------------------------------------------------------------------------------
+	Clearing
+-------------------------------------------------------------------------------*/
+.cf:before, .cf:after { content:""; display:table; }
+.cf:after { clear:both; }
+.cf { zoom:1; }
+.clear{ clear:both; overflow: hidden; height:0; zoom: 1; }
+
+
+
+/*-------------------------------------------------------------------------------
+	ADMIN
+-------------------------------------------------------------------------------*/
+
+.admin-doc{
+	padding-right:20px;
+}
+
+.admin-doc-section img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.admin-doc-nav {
+	margin: 2rem 0;
+	padding: 2rem 0;
+}
+
+.admin-doc-nav a,
+.admin-doc-nav .divider{
+	margin:0 5px;
+	text-decoration: none;
+}
+
+.admin-doc-nav ul li {
+	float: left;
+	margin: 0 3px;
+}
+
+.admin-doc h2{
+	background: #ddd;
+	color: #000;
+	font-weight: bold;
+	padding: 10px;
+	margin:0;
+	text-transform: uppercase;
+}
+
+.admin-doc img{
+	border:1px solid #999;
+	max-width: 100%;
+}
+
+.admin-doc .wrap{
+	padding:10px 25px 30px 25px;
+	border:1px solid #ddd;
+	margin:0;
+	background:#FFF;
+}
+
+.admin-doc .code{
+	background: none repeat scroll 0 0 #292d30;
+	border: 0 none;
+	color: #fff;
+	font: 12px Arial;
+	padding: 15px;
+}
+
+.admin-doc .code pre,
+.admin-doc .code code{
+	font: 14px/1.5em Helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*-------------------------------------------------------------------------------
+	Menu Separate
+-------------------------------------------------------------------------------*/
+
+#wpadminbar #wp-admin-bar-wdcab_root a{
+	font-weight:bold;
+}
+
+#adminmenu li.wp-menu-separator{
+	margin:0;
+	height:auto;
+}
+
+#adminmenu div.separator{
+	height:1px;
+	border-bottom:1px solid #666;
+}
+
+/*-------------------------------------------------------------------------------
+	Wordpress SEO fix
+-------------------------------------------------------------------------------*/
+
+.wp-pointer{
+	display:none !important;
+}
