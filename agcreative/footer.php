@@ -2,6 +2,7 @@
 	<div class="container">
 		<div class="row inner-top">
 			<div class="one-third column"><a href="<?php bloginfo('wpurl'); ?>" title="<?php bloginfo('name'); ?>" class="ag-logo"></a></div>
+			<!-- The following content should come from a custom field(ACF pro) - for example Theme Settings => Footer | But I don't want to use a plugin for this task. ;) -->
 			<div class="one-third column"><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </p></div>
 			<div class="one-third column"><p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum </p></div>
 		</div>
