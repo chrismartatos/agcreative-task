@@ -9,7 +9,7 @@
 	4. Basics
 	5. Register Scripts
 	6. Register CSS
-	7. Big Fix for shortcodes
+	7. Bug Fix for shortcodes
 	8. Add Custom Post Type
 	9. Add Taxonomies
 	10. Shortcode Projects
