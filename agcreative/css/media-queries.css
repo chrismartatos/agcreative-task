@@ -88,6 +88,9 @@
 		margin-top: 0;
 		position: absolute;
 		top: 91px;
+		bottom: auto;
+		left:0;
+		right: 0;
 		width: 100%;
 		z-index: -1;
 		opacity: 0;
@@ -188,8 +191,9 @@
 	/* Projects
 	----------------------------------*/
 	.project-post {
-		margin-bottom: 2rem;
 		height: 140px;
+		width: 48%;
+		margin: 0 1% 1rem;
 	}
 	
 	.project-post .hover-wrap h3 {
