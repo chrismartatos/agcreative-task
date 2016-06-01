@@ -30,8 +30,7 @@ if(!empty($feat_img)):
 
 
 <?php 
-	//You have to add location and category slug name
-	echo do_shortcode('[projects limit="" location="" category=""]'); 
+	the_content();
 ?>
 
 </div><!--END #content -->

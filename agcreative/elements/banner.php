@@ -4,7 +4,7 @@
 	<div class="desc">
 		<?php if( have_posts() ): the_post(); ?>
 				
-		<?php the_content(); ?>		
+		<p><?php the_excerpt(); ?></p>	
 		
 		<?php endif; ?>
 	</div>

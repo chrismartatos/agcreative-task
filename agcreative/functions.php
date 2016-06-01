@@ -78,6 +78,13 @@ add_theme_support( 'post-thumbnails' );
 // Enable Widgets
 register_sidebar();
 
+//Excerpt
+add_action( 'init', 'my_add_excerpts_to_pages' );
+
+function my_add_excerpts_to_pages() 
+{
+	     add_post_type_support( 'page', 'excerpt' );
+}
 
 
 /*-----------------------------------------------------------------------------------------------------
@@ -277,7 +284,7 @@ function projects_shortcode($atts)
         $img_src = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "full");
 		$feat_img = $img_src[0];
         
-        $output .= '<a href="#" class="project-post" data-url="'.get_permalink().'" style="background-image:url('.$feat_img.');"><div class="hover-wrap">';
+        $output .= '<a href="#" class="project-post one-third column" data-url="'.get_permalink().'" style="background-image:url('.$feat_img.');"><div class="hover-wrap">';
         $output .= '<h3>'.get_the_title().'</h3>';
         $output .= '<div class="post-excerpt">'.get_the_excerpt().'</div>';
         $output .= '<div class="meta">'.get_post_meta( $post->ID, 'Awards', true).'</div>';
@@ -293,3 +300,6 @@ function projects_shortcode($atts)
 }
 
 add_shortcode('projects', 'projects_shortcode');
+
+
+
