@@ -275,7 +275,7 @@ function projects_shortcode($atts)
     $get_projects = NEW WP_Query($args);
 	
 	//Wrapper
-	$output .= '<div class="container"><div class="row wrap-projects">';
+	$output .= '<div class="row wrap-projects">';
 	
 	//Loop
     while($get_projects->have_posts()) 
@@ -291,7 +291,7 @@ function projects_shortcode($atts)
         $output .= '</div></a>';
     };
     
-    $output .= '</div></div>';
+    $output .= '</div>';
     
     //Important: Reset wp query
     wp_reset_query();

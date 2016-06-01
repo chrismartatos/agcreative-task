@@ -28,10 +28,11 @@ if(!empty($feat_img)):
 
 <?php endif; ?>
 
-
+<div class="container">
 <?php 
 	the_content();
 ?>
+</div>
 
 </div><!--END #content -->
 
