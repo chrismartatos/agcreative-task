@@ -11,5 +11,5 @@ Task for: http://agcreative.ca
 Credits
 =======
 
-• Wordpress: http://wordpress.org/
+- Wordpress: http://wordpress.org/
 
